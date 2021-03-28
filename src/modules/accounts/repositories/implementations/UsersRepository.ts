@@ -23,6 +23,8 @@ class UsersRepository implements IUsersRepository {
   }
 
   async create({
+    id,
+    avatar,
     name,
     email,
     driver_license,
@@ -33,6 +35,8 @@ class UsersRepository implements IUsersRepository {
       email,
       driver_license,
       password,
+      avatar,
+      id,
     });
 
     await this.repository.save(user);
