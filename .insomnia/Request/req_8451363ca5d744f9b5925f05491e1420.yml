@@ -1,0 +1,23 @@
+_id: req_8451363ca5d744f9b5925f05491e1420
+type: Request
+parentId: fld_4ddfabbf15b74d1d9f41a5c391d47a7d
+modified: 1617913851207
+created: 1617913807247
+url: "{{ _.base_url }}/rentals/devolution/9e3c77f4-f5c4-4b6f-8a36-c61b51a9e6db"
+name: devolution
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1617913807248
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

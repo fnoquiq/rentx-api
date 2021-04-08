@@ -1,0 +1,40 @@
+_id: req_204b2cf749a84055ba2ddd9ce0d2812c
+type: Request
+parentId: fld_0096367e22624299b17dcd8ed1c42907
+modified: 1617222205932
+created: 1617221845293
+url: "{{ _.base_url }}/cars/images/dacaecd9-1e22-429f-b020-33ed523f414a"
+name: images
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: images
+      value: ""
+      description: ""
+      id: pair_339f2962987540a3bef86e7572bc91d8
+      type: file
+      fileName: /Users/gabriel-macbook/Downloads/car1.jpg
+    - name: images
+      value: ""
+      description: ""
+      id: pair_1fd9ef23b4eb4c38877b53f4a60c35a4
+      type: file
+      fileName: /Users/gabriel-macbook/Downloads/car2.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_cbfac3fd6e1d487ab7e6863d916d40e8
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1617221845293
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

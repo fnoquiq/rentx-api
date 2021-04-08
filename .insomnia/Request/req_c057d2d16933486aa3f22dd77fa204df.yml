@@ -1,0 +1,34 @@
+_id: req_c057d2d16933486aa3f22dd77fa204df
+type: Request
+parentId: fld_fc0d484d5d8244f3a6b8d23c0cfa75bd
+modified: 1616890382196
+created: 1616889936483
+url: "{{ _.base_url }}/users/avatar"
+name: avatar
+description: ""
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: avatar
+      value: ""
+      description: ""
+      id: pair_8e8e2e16d53b4415a9c887acc64637c2
+      type: file
+      fileName: /Users/gabriel-macbook/Downloads/avatar.jpg
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_3009c8af320447bf869cecf7188db385
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1616889936483
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

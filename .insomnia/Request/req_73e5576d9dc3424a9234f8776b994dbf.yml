@@ -1,0 +1,32 @@
+_id: req_73e5576d9dc3424a9234f8776b994dbf
+type: Request
+parentId: fld_fc0d484d5d8244f3a6b8d23c0cfa75bd
+modified: 1616794816463
+created: 1616793269729
+url: "{{ _.base_url }}/users"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Gabriel Mesquita",
+    	"password": "123456",
+    	"email": "Gabrielteixeiramesquita2@gmail.com",
+    	"driver_license": "1234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_81fdd6df35144b28abfb2991fb961672
+authentication: {}
+metaSortKey: -1615930761546
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

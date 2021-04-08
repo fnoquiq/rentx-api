@@ -1,0 +1,34 @@
+_id: req_b35e54dbe6754a669d091dfe50cbf18e
+type: Request
+parentId: fld_0096367e22624299b17dcd8ed1c42907
+modified: 1617204321288
+created: 1617204158651
+url: "{{ _.base_url }}/cars/specifications/54e5b74f-764e-4275-bed1-06252d3e57ea"
+name: specifications
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"specifications_id": [
+    		"2b714bfb-2fd1-4dcb-a339-5b30505e77d7",
+    		"d5441ac7-e01e-4bd0-919f-dfd262faf1c2"
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_81fdd6df35144b28abfb2991fb961672
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1617139479316
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_2bef11a8b67c4e9e89201e868dff39ed
+type: Request
+parentId: fld_fc0d484d5d8244f3a6b8d23c0cfa75bd
+modified: 1617909335714
+created: 1616867619351
+url: "{{ _.base_url }}/sessions"
+name: session
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "admin@rentx.com.br",
+    	"password": "admin"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_81fdd6df35144b28abfb2991fb961672
+authentication: {}
+metaSortKey: -1613779047617.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

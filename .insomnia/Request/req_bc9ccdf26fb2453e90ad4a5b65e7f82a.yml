@@ -1,0 +1,32 @@
+_id: req_bc9ccdf26fb2453e90ad4a5b65e7f82a
+type: Request
+parentId: fld_a44e08c5f0f445999e0a8b9d36dba518
+modified: 1617370958327
+created: 1615930761546
+url: "{{ _.base_url }}/categories"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Esportivo",
+    	"description": "Categoria esportiva"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_81fdd6df35144b28abfb2991fb961672
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1615930761546
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

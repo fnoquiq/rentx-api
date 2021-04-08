@@ -1,0 +1,32 @@
+_id: req_14831d3c3f184fd7a8b43986212a4e38
+type: Request
+parentId: fld_a44e08c5f0f445999e0a8b9d36dba518
+modified: 1616191026452
+created: 1616190969627
+url: "{{ _.base_url }}/categories/import"
+name: import
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: file
+      value: ""
+      description: ""
+      id: pair_3f46f8c5f94a4a579ac419a0be7d375e
+      type: file
+      fileName: /Users/gabriel-macbook/Downloads/1615818549022-attachment.csv
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_36856734c2ff4091b9236c2bdd6148dc
+authentication: {}
+metaSortKey: -1616190969627
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

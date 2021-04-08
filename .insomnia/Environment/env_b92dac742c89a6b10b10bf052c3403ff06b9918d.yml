@@ -1,0 +1,16 @@
+_id: env_b92dac742c89a6b10b10bf052c3403ff06b9918d
+type: Environment
+parentId: wrk_d1dbac54217a4ce9aa2b7e7a95838fbd
+modified: 1617909345183
+created: 1615930699195
+name: Base Environment
+data:
+  base_url: http://localhost:3333
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTc5MDkzMzYsImV4cCI6MTYxNzk5NTczNiwic3ViIjoiNDdjOGVmMWMtYTZjZi00YTI1LTk1MWItMTJjNzI0ODcwOTRiIn0.OJk3YDnlCoOevetyKvwZA2MxTrS009KpVl5d9PDEDZY
+dataPropertyOrder:
+  "&":
+    - base_url
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1615930699195

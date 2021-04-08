@@ -1,0 +1,25 @@
+_id: req_c1be080e22e8439288a0b26cd768cd6f
+type: Request
+parentId: fld_0096367e22624299b17dcd8ed1c42907
+modified: 1617204207019
+created: 1617139479266
+url: "{{ _.base_url }}/cars/available"
+name: listAvailable
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: brand
+    value: Audi
+    description: ""
+    id: pair_6e7ff8a2e4fd4f48980b5768f24cda5e
+headers: []
+authentication: {}
+metaSortKey: -1617139479266
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

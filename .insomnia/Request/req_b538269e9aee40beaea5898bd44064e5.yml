@@ -1,0 +1,32 @@
+_id: req_b538269e9aee40beaea5898bd44064e5
+type: Request
+parentId: fld_4ddfabbf15b74d1d9f41a5c391d47a7d
+modified: 1617909715507
+created: 1617296956900
+url: "{{ _.base_url }}/rentals"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"expected_return_date": "2021-05-03T17:11:02.533Z",
+    	"car_id": "dc0518a1-85fe-4969-aab4-3e9ef65d9b6f"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_80682aaca2364c48bc69f9d5c932f047
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1617296956900
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
