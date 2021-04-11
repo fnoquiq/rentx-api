@@ -3,3 +3,4 @@ dist
 tmp/*
 !.gitkeep
 .env
+coverage
