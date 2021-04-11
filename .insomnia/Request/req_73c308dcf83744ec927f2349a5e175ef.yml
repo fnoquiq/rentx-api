@@ -1,0 +1,29 @@
+_id: req_73c308dcf83744ec927f2349a5e175ef
+type: Request
+parentId: fld_a10c55c8da734ec0870d606ddc9d8000
+modified: 1618156135981
+created: 1618155575934
+url: "{{ _.base_url }}/password/reset?token=69d09207-ee74-4b78-adaf-c47313a2c2d1"
+name: reset
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password": "admin"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a69b3013bb144a7db1455b9bb6ea99ec
+authentication: {}
+metaSortKey: -1618155575935
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
