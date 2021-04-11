@@ -1,0 +1,29 @@
+_id: req_740f6c4b617249e7a4f134a59acfcab2
+type: Request
+parentId: fld_a10c55c8da734ec0870d606ddc9d8000
+modified: 1618152485452
+created: 1618152432710
+url: "{{ _.base_url }}/password/forgot"
+name: sendForgotMail
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "admin@rentx.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1fb98863fcc540d8a612310e9957e95a
+authentication: {}
+metaSortKey: -1618152432767
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
